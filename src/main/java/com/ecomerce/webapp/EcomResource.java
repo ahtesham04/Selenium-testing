@@ -9,6 +9,6 @@ public class EcomResource {
 	
 	@GetMapping("/greeting")
 	public String greeting(@RequestParam(value = "name", defaultValue="World") String name) {
-		return "Hellow  application is running on ec2 by user" + name;
+		return "Hellow  app is running on ec2 by user" + name;
 	}
 }
