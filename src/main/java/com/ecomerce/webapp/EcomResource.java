@@ -9,6 +9,6 @@ public class EcomResource {
 	
 	@GetMapping("/greeting")
 	public String greeting(@RequestParam(value = "name", defaultValue="World") String name) {
-		return "Hi everyone, I am Ahtesham Ansari,full stack developer my app is running on ec2 " + name;
+		return "Hi everyone, I am Ahtesham Ansari,full stack developer my app is running on AWS ec2 cloud " + name;
 	}
 }
